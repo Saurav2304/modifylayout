@@ -44,15 +44,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         int[] image = new int[]{R.drawable.tj , R.drawable.g , R.drawable.u , R.drawable.tj , R.drawable.g , R.drawable.u , R.drawable.tj , R.drawable.g , R.drawable.u };
         String[] from = new String[]{"Tanish Josh" , "Google" , "Udacity" , "Tanish Josh" , "Google" , "Udacity" , "Tanish Josh" , "Google" , "Udacity" };
-        String[] title = new String[]{"Test Title" , "Test Title" , "Test Title" , "Test Title" , "Test Title" , "Test Title" , "Test Title" , "Test Title" , "Test Title" , };
-        String[] message = new String[]{"Test Message" , "Test Message" , "Test Message" , "Test Message" , "Test Message" , "Test Message" , "Test Message" , "Test Message" , "Test Message" , };
-        String[] date = new String[]{"02 May" , "1 May" , "30 Apr" , "29 Apr" , "28 Apr" , "27 Apr" , "26 Apr" , "25 Apr" , "24 Apr" };
+        String[] title = new String[]{"Test Title" , "Scholarship" , "Test Title" , "Test Title" , "Test Title" , "Test Title" , "Test Title" , "Test Title" , "Test Title" , };
+        String[] message = new String[]{"Test Message" , "You are Selected" , "Test Message" , "Test Message" , "Test Message" , "Test Message" , "Test Message" , "Test Message" , "Test Message" , };
+        String[] date = new String[]{"02 May" , "01 May" , "30 Apr" , "29 Apr" , "28 Apr" , "27 Apr" , "26 Apr" , "25 Apr" , "24 Apr" };
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "You clicked on FAB !!!", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "You need to compose !!!", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });

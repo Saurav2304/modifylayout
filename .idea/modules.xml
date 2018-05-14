@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GmailCopyLayoutChallenge.iml" filepath="$PROJECT_DIR$/GmailCopyLayoutChallenge.iml" />
-      <module fileurl="file://C:\Users\saura\Downloads\Compressed\GmailCopyLayoutChallenge-master\GmailCopyLayoutChallenge-master\GmailCopyLayoutChallenge.iml" filepath="C:\Users\saura\Downloads\Compressed\GmailCopyLayoutChallenge-master\GmailCopyLayoutChallenge-master\GmailCopyLayoutChallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
