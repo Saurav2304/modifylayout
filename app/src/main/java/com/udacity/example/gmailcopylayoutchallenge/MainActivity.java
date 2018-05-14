@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         icon.setVisibility(View.INVISIBLE);
 
-        int[] image = new int[]{R.drawable.tj , R.drawable.g , R.drawable.u , R.drawable.tj , R.drawable.g , R.drawable.u , R.drawable.tj , R.drawable.g , R.drawable.u };
-        String[] from = new String[]{"Tanish Josh" , "Google" , "Udacity" , "Tanish Josh" , "Google" , "Udacity" , "Tanish Josh" , "Google" , "Udacity" };
+        int[] image = new int[]{R.drawable.s , R.drawable.g , R.drawable.u , R.drawable.s , R.drawable.g , R.drawable.u , R.drawable.s , R.drawable.g , R.drawable.u };
+        String[] from = new String[]{"Saurav" , "Google" , "Udacity" , "Saurav" , "Google" , "Udacity" , "Saurav" , "Google" , "Udacity" };
         String[] title = new String[]{"Test Title" , "Scholarship" , "Test Title" , "Test Title" , "Test Title" , "Test Title" , "Test Title" , "Test Title" , "Test Title" , };
         String[] message = new String[]{"Test Message" , "You are Selected" , "Test Message" , "Test Message" , "Test Message" , "Test Message" , "Test Message" , "Test Message" , "Test Message" , };
         String[] date = new String[]{"02 May" , "01 May" , "30 Apr" , "29 Apr" , "28 Apr" , "27 Apr" , "26 Apr" , "25 Apr" , "24 Apr" };
